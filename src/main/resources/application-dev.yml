@@ -16,8 +16,8 @@ spring:
       stat-view-servlet:
         allow: true
       test-on-borrow: true
-    password: 123456
-    url: jdbc:mysql://localhost:3306/springboot_demo
+    password: root
+    url: jdbc:mysql://localhost:3337/springboot_demo?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
     username: root
   thymeleaf:
     cache: false
